@@ -1,0 +1,109 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="typescript_statement" id=":]N*J,;W6U.Z;4H+m$|V" disabled="true" editable="false" x="0" y="0"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;Hello! i am your micromath teacher, today we will learn about lines, points, angles and mutch mutch more.&quot;,75)" numlines="1"></mutation><next><block type="device_print_message" id="TF_81faN|N/g)X;`j-:T" disabled="true"><value name="text"><shadow type="text" id="fj5LM4Yh{K!if7h0Roj1" disabled="true"><field name="TEXT">press A to start.</field></shadow></value></block></next></block><block type="device_button_event" id="?LpjJxtUy$(DGRy{Wv!o" x="-126" y="357"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="typescript_statement" id="NvZ)9#*ossu_5UVr_@c5" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;welcome to your first class, let's get started.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="sU!^`v[@04Cf8ANI0*xe" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;the first thing we will learn about is a point. a point is a dot. this is a point.&quot;,17)" numlines="1"></mutation><next><block type="device_show_leds" id="znVL;y!gc#t_8Ia0{w=v"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="typescript_statement" id="N@.?+$sN`QD]1[/(.;8o" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;a point is a point.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="!*1N)2G+c_HNF%1b/`#!" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;the next thing we will learn about, is what a line is.&quot;,78)" numlines="1"></mutation><next><block type="device_print_message" id="sV6tOF%Bkh$$Lyy8e~qp"><value name="text"><shadow type="text" id=")91rPT#qJT0-@Pc9.8mg"><field name="TEXT">this is a line.</field></shadow></value><next><block type="device_show_leds" id="LstvGO.[!W[0c,8nJvD*"><field name="LEDS">`
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . #
+        `</field><next><block type="typescript_statement" id="Tz)`mv.+u=xH`:j5`XxD" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;a line goes on forever.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="RC7$gE[ix=0~@6L0BeR-" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;next we will learn about a line segment.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="DHyF#!([_%tWxXZ-p35r" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;this is a line segment.&quot;,75)" numlines="1"></mutation><next><block type="device_show_leds" id="Im6b6{i!R{rzsB./AdCt"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # . 
+        . . . . .
+        `</field><next><block type="typescript_statement" id="!*p9*V-:KDTVqT~H2CTi" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;a line segment is part of a line.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="2Zl:}=e@=}LA6{=CAyoj" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;now wee will learn about a ray.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="f;J6xS}:EzUPOb|uE#]1" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;if you randomly draw a point and then fold the sheet randomly twice so that they cross, and you draw a dot in the center of the x, the fold lines will be the rays.&quot;, 75)" numlines="1"></mutation><next><block type="typescript_statement" id="KEE%/viOi(EYLB8j+P=}" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;this is an animation explaining what a ray is.&quot;,75)" numlines="1"></mutation><next><block type="device_show_leds" id=":}_1zy#ZdcE:C%#{I6ro"><field name="LEDS">`
+        # # # # # 
+        # . . . # 
+        # . . . # 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="vo5X]!u5EOfHVM.2y9dk"><field name="LEDS">`
+        . # # # # 
+        . # . . # 
+        . # . . # 
+        . # . . # 
+        . # # # #
+        `</field><next><block type="device_show_leds" id="|w8(1qb$ZFL)$VZITlj#"><field name="LEDS">`
+        . . # # # 
+        . . # . # 
+        . . # . # 
+        . . # . # 
+        . . # # #
+        `</field><next><block type="device_show_leds" id="#*FPbcy4wZJq3a0xd#$e"><field name="LEDS">`
+        . # # # # 
+        . # . . # 
+        . # . . # 
+        . # . . # 
+        . # # # #
+        `</field><next><block type="device_show_leds" id="WMP.u$;2mQr27H/oD,H+"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . # . # 
+        # . # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="ycGzhGTN@@q7g@gItTsO"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="3Y/JZ-B#{67MubHZ@~gs"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="{?Ru`(8=)KuJq,fsJ-5n"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # . # . # 
+        # # # # # 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="BV/g/9o:,Cd{dn`g;UqU"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # # # # # 
+        # . # . # 
+        # # # # #
+        `</field><next><block type="device_show_leds" id="/]MUU%~K6!w87Abk,*`{"><field name="LEDS">`
+        # # # # # 
+        # . # . # 
+        # # . # # 
+        # . # . # 
+        # # # # #
+        `</field><next><block type="typescript_statement" id="aiNy#XtsM;qrZZ04kYF0" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;the lines beside the center point are the rays.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="Rr0FVUO0|-S?S]emgui/" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;now we will learn what a vertex is.&quot;,75)" numlines="1"></mutation><next><block type="typescript_statement" id="-;EG3VP_2~A-Iu6_)0NI" editable="false"><mutation xmlns="http://www.w3.org/1999/xhtml" line0="basic.showString(&quot;a vertex is where two rays meet.&quot;,75)" numlines="1"></mutation><next><block type="device_print_message" id="!YT8L+^w,9|x~CsD#Hlw"><value name="text"><shadow type="text" id="L^B0GX7.hoR@Fp?~o6o8"><field name="TEXT">what is an angle?</field></shadow></value><next><block type="device_print_message" id="LmXpO:#l1rZ,1$UCTy]M"><value name="text"><shadow type="text" id="m8^0ZxElgg2j*Y-lf-0/"><field name="TEXT">an angle is two lines that meet at the tip of each other.</field></shadow></value><next><block type="device_print_message" id="v1u~sPN1rtf[GpR6g*uq"><value name="text"><shadow type="text" id="6qpA4HZZZ((=;lNS$|DE"><field name="TEXT">this is an angle</field></shadow></value><next><block type="device_show_leds" id=";YaR5MhILktY_Q|.,}u!"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="device_print_message" id="K0W3-W378QS9j-_qsiLl"><value name="text"><shadow type="text" id="oy}7S0IlLO-IxQ,X8/Q)"><field name="TEXT">this is a 90 degree angle.</field></shadow></value><next><block type="device_print_message" id="_7k$gRE+2z|a^0:`R[rv"><value name="text"><shadow type="text" id="ss|hQj8%269J2=+G+cGL"><field name="TEXT">to measure an angle, you would use a protractor.</field></shadow></value><next><block type="device_print_message" id="C-Vv`$]4ML{81.w[Gz-j"><value name="text"><shadow type="text" id="uE0$m57SsS-u~B74y)ke"><field name="TEXT">this is a protractor</field></shadow></value><next><block type="device_show_leds" id=".Mv4KzpFCz[w9$}--N5n"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # # # . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="device_print_message" id="WmJ6|``4Jl5#4-N*^Eu@"><value name="text"><shadow type="text" id="fYw?P${obb|EO_P}S:f^"><field name="TEXT">there are 4 types of angle. there is acute.</field></shadow></value><next><block type="device_show_leds" id="I$@Gki1kA+4rM_;.L;/s"><field name="LEDS">`
+        . . . . # 
+        . . . # . 
+        . . # . . 
+        . # . . . 
+        # # # # #
+        `</field><next><block type="device_print_message" id="??lkDanPJ%=$w@g_ct1_"><value name="text"><shadow type="text" id="6*J$YIz~-+SDn@epYD5z"><field name="TEXT">obtuse</field></shadow></value><next><block type="device_show_leds" id="GW_jyLo_$flWW0hae(l?"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . . . . 
+        . # . . . 
+        . . # # #
+        `</field><next><block type="device_print_message" id="9)VL:,F2R7A|Sx-]!0*Y"><value name="text"><shadow type="text" id="B.C2=O{LJc60T$N,#FDL"><field name="TEXT">straight</field></shadow></value><next><block type="device_show_leds" id="Z9W^uUaXnY_1=)ZUGjJq"><field name="LEDS">`
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # . . . . 
+        # # # # #
+        `</field><next><block type="device_print_message" id="QQiK5`1@0k9_:,@!bP7C"><value name="text"><shadow type="text" id="b/xHlx%,Blh$FZ$p4pR8"><field name="TEXT">and reflex.</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
